@@ -27,7 +27,7 @@ st.title('📞 Telecom Customer Churn Dashboard')
 
 @st.cache_data
 def get_data():
-    path = r"F:\telecom_customer_churn.csv"
+    path = r"telecom_customer_churn.csv"
     df = pd.read_csv(path)
 
     # Fill categorical missing values
